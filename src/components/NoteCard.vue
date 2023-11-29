@@ -20,7 +20,7 @@
       class="textarea"
       :value="note.text"
       @input="handleTextAreaChange"
-      placeholder="Type sth..."
+      placeholder="Start typing.."
     ></textarea>
   </div>
 </template>
@@ -67,11 +67,9 @@ export default {
   left: 0;
 
   width: 350px;
-  height: 150px;
+  height: 200px;
 
-  border-radius: 15px;
-
-  background-color: #fff;
+  background-color: #58f3a3d5;
 
   overflow: hidden;
 }
@@ -83,7 +81,7 @@ export default {
 
   cursor: pointer;
 
-  background-color: #fa8072;
+  background-color: #380202;
 
   display: flex;
   justify-content: flex-end;
@@ -106,12 +104,10 @@ export default {
 }
 
 .btn {
-  background-color: skyblue;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border: none;
-  border-radius: 15px;
-
+  margin-left: 5px;
   font-size: 11px;
 
   cursor: pointer;

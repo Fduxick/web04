@@ -152,31 +152,26 @@ export default {
   height: 100vh;
   overflow: hidden;
 
-  background-color: rgb(19, 33, 198);
+  background-color: rgb(217, 141, 165);
 }
 
 .btn {
   position: fixed;
-  bottom: 1%;
-  right: 1%;
+  bottom: 30px;
+  right: 30px;
   padding: 12px;
 
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 700;
 
   cursor: pointer;
 
-  border-radius: 12px;
+  border-radius: 2px;
   border: none;
 
-  background-color: #fa8072;
-  color: #fff;
+  background-color: #fa72e3;
+  color: #000000;
 
   transition: transform 250ms linear;
-
-  &:hover,
-  &:focus {
-    transform: scale(1.1);
-  }
 }
 </style>
